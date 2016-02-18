@@ -1,7 +1,7 @@
 import App from './components/App';
 import AppHomeRoute from './routes/AppHomeRoute';
 import {createStore, combineReducers} from 'redux';
-import {Provider} from './redux-compat';
+import {Provider} from 'react-redux';
 import * as store from './store';
 import * as React from 'react';
 import * as Relay from 'react-relay';

@@ -1,5 +1,5 @@
 import LikeItemMutation from '../mutations/LikeItemMutation';
-import { connect } from '../redux-compat';
+import { connect } from 'react-redux';
 import * as Relay from 'react-relay';
 import * as React from 'react';
 
